@@ -13,6 +13,19 @@ console.log(person.name);
 person['name'] = 'Mary';
 console.log(person.name);
 
+let selectedColors =['red', 'blue'];
+selectedColors[2] = 'green';
+
+console.log(selectedColors.length);
+console.log(selectedColors[1]);
+
+
+function greet(name1){
+    console.log("Hello "+name1);
+}
+
+greet('John');
+
 
 
 
